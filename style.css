@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(142, 209, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-box {
+  background-color: #fff;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.input-wrapper {
+  width: 22rem;
+}
+.input {
+  background-color: rgb(232, 231, 229);
+  outline: none;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
+.date textarea {
+height: 6rem;
+}
+.btn {
+  padding: 1rem;
+  border: none;
+  color: #fff;
+  background-color: rgb(115, 187, 7);
+  font-size: 1rem;
+  cursor: pointer;
+}
